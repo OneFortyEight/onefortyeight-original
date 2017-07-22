@@ -1,0 +1,80 @@
+/*
+Theme Name: One Forty Eight Original
+Author: One Forty Eight
+Author URI: http://onefortyeight.com/
+Description: A WordPress theme based-on the original, non-responsive site.
+Version: 1.0
+*/
+
+/* Normalize - https://necolas.github.io/normalize.css/ */
+progress,sub,sup{vertical-align:baseline}button,hr,input{overflow:visible}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}button,input,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{color:inherit;display:table;max-width:100%;white-space:normal}textarea{overflow:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+
+/* GLOBAL */
+html { font-family: Arial, Helvetica, sans-serif; font-size: 15px; }
+html,
+html * { box-sizing: border-box; }
+
+body { background-color: #FFF; }
+
+#container { width: 900px; margin: 0 auto; }
+
+header { height: 194px; background-color: #ff6634; }
+header .content { position: relative; width: 100%; height: 100%; background: transparent url(img/banner-home.jpg) right top no-repeat; }
+header .content .logo { display: block; position: absolute; top: 0; left: 0; width: 250px; height: 194px; text-indent: -9999em; background: transparent url(img/logo.jpg) center center no-repeat; background-size: 100%; }
+
+header .content nav { position: absolute; bottom: 0; right: 0; width: 650px; }
+header .content nav ul { list-style-type: none; width: 100%; height: 100%; padding: 0; margin: 0; }
+header .content nav ul li { display: block; float: left; width: 25%; }
+header .content nav ul li a { display: block; width: 100%; padding: 23px 0; white-space: nowrap; color: #FF6634; font-size: 40px; font-weight: 400; text-align: center; text-decoration: none;
+    text-shadow: 0 0 6px rgba(0,0,0,1),0 0 20px rgba(0,0,0,1);
+}
+header .content nav ul li a { font-family: 'Gill Sans', Helvetica, sans-serif; }
+
+#main { padding: 50px; background-color: #D0D19D; }
+
+#content { }
+
+#sidebar { }
+
+
+/* SIDEBAR */
+#main-sidebar { }
+
+
+/* SIDEBAR WIDGETS */
+#main-sidebar .sidebar-widget { }
+#main-sidebar .wp-widget { }
+
+
+/* SIDEBAR ADS */
+#main-sidebar .triad-sidebar-ad { }
+#main-sidebar .triad-sidebar-ad .content { }
+#main-sidebar .triad-sidebar-ad .title { }
+#main-sidebar .triad-sidebar-ad .copy { }
+#main-sidebar .triad-sidebar-ad .copy .text { }
+#main-sidebar .triad-sidebar-ad .link { }
+#main-sidebar .triad-sidebar-ad .link a { }
+
+
+footer { padding-bottom: 50px; font-size: 11px; line-height: 15px; }
+footer nav ul { list-style-type: none; margin: 0; padding: 0; text-align: right; }
+footer nav ul li { display: inline-block; padding: 5px; }
+footer nav ul li a { color: #000; text-decoration: none; }
+footer nav ul li a:hover { text-decoration: underline; }
+footer div { text-align: center; }
+footer .copyright { padding-top: 20px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
